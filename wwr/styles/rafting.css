@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #1F77B4;  
+    --secondary-color: #2CA02C;  
+    --accent1-color: #17BECF;  
+    --accent2-color: #D4A02A;  
+}
+
+h1 {
+    color: var(--primary-color);
+    position: absolute;
+}
+
+h2 {
+    color: var(--secondary-color);
+    
+}
+
+p {
+    padding: 0;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+}
+
+div .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
