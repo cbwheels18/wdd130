@@ -7,7 +7,6 @@
 
 h1 {
     color: var(--primary-color);
-    position: absolute;
 }
 
 h2 {
@@ -24,11 +23,23 @@ footer a{
 }
 
 main {
-    max-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-div .hero {
+.hero {
     position: relative;
+}
+
+.hero h1 {
+    color: var(--primary-color);
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 10px;
 }
 
 .hero img {
@@ -37,7 +48,7 @@ div .hero {
     height: auto;
 }
 
-article {
+.hero article {
     position: absolute;
 }
 
