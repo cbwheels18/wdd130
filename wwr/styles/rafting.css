@@ -5,9 +5,75 @@
     --accent2-color: #D4A02A;  
 }
 
+header {
+    margin: 0.5rem auto;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.logo {
+	width: 250px;
+	height: auto;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center; 
+}
+
+.history h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center; 
+}
+
+.adventure h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adventure img {
+
+    width: 250px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
 h1 {
     color: var(--primary-color);
-    font-size: 3rem; /* Increase font size for prominence */
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -22,8 +88,19 @@ p {
     font-size: 1.1rem;
 }
 
+footer {
+    display: grid;
+    border-top: 1px solid;
+    grid-template-columns: 75% 1fr 1fr 1fr;
+}
+
 footer a{
     text-decoration: none;
+}
+
+footer img {
+    width: 75px;
+    height: auto;
 }
 
 main {
