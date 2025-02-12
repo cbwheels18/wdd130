@@ -62,6 +62,7 @@ header a {
     grid-column: 1 / -1;
     text-align: center;
     margin-bottom: 20px;
+    color: white;
 }
 
 .adventure img {
@@ -368,6 +369,7 @@ button:hover {
     margin-bottom: 20px;
     text-align: center;
     grid-column: span 3;
+    color: white;
 }
 
 .cta .cta-images {
@@ -427,6 +429,7 @@ button:hover {
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
 }
 
 .trips .trips-images {
